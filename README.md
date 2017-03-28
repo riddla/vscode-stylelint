@@ -17,16 +17,7 @@ See the [extension installation guide](https://code.visualstudio.com/docs/editor
 
 ## Usage
 
-Enable the linter in the VS Code [settings](https://code.visualstudio.com/docs/customization/userandworkspace), while disabling the built-in CSS linter:
-
-```json
-{
-  "stylelint.enable": true,
-  "css.validate": false
-}
-```
-
-If you plan to use stylelint also for linting SCSS files, you should also disable the build-in SCSS linter:
+Enable the linter in the VS Code [settings](https://code.visualstudio.com/docs/customization/userandworkspace), while disabling the built-in CSS and SCSS linter:
 
 ```json
 {
@@ -35,7 +26,6 @@ If you plan to use stylelint also for linting SCSS files, you should also disabl
   "scss.validate": false
 }
 ```
-
 
 ### Configurations
 
